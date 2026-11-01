@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "game": "３年2組恒常性メモリアル 4月β版",
+  "tracks": [
+    {
+      "file": "assets/bgm/free_morning.mp3",
+      "title": "朝の支度",
+      "author": "takai",
+      "site": "フリーBGM素材 音楽の卵",
+      "source_page": "https://ontama-m.com/ongaku_akarui.html",
+      "download_url": "https://ontama-m.com/midi/data/mp3_file/original/03_asanositaku.mp3",
+      "license_urls": [
+        "https://ontama-m.com/ongaku.html"
+      ],
+      "retrieved_date": "2026-10-27",
+      "sha256": "4212cc700d2efa6eea5a47e82f37bc0a60d28e7276da6f732a49d8bdbfd3dd44",
+      "bytes": 3742033,
+      "content_type": "audio/mpeg",
+      "usage_scene": "朝・登校・日常会話",
+      "format_verification": {
+        "tool": "file + macOS afinfo (header metadata only)",
+        "file_result": "Audio file with ID3 version 2.3.0, contains: MPEG ADTS, layer III, v1, 192 kbps, 44.1 kHz, JntStereo",
+        "afinfo": "File:           /Users/takehirokubokawa/Documents/Codex/2026-10-26/new-chat/outputs/3-2_homeostasis_april/assets/bgm/free_morning.mp3\nFile type ID:   MPG3\nNum Tracks:     1\n----\nData format:     2 ch,  44100 Hz, .mp3 (0x00000000) 0 bits/channel, 0 bytes/packet, 1152 frames/packet, 0 bytes/frame\n                no channel layout.\nestimated duration: 155.742042 sec\naudio bytes: 3737809\naudio packets: 5962\nbit rate: 192000 bits per second\npacket size upper bound: 1052\nmaximum packet size: 627\naudio data file offset: 4096\noptimized\n----",
+        "status": "passed"
+      }
+    },
+    {
+      "file": "assets/bgm/free_evening.mp3",
+      "title": "黄昏時",
+      "author": "takai",
+      "site": "フリーBGM素材 音楽の卵",
+      "source_page": "https://ontama-m.com/ongaku_akarui.html",
+      "download_url": "https://ontama-m.com/midi/data/mp3_file/original/tasogaredoki.mp3",
+      "license_urls": [
+        "https://ontama-m.com/ongaku.html"
+      ],
+      "retrieved_date": "2026-10-27",
+      "sha256": "dfb4bfd9ee2c6ad921de9aae725bc80d7af413c4ebbcaa24b5aaf5f4e1332eba",
+      "bytes": 5411634,
+      "content_type": "audio/mpeg",
+      "usage_scene": "夕方・放課後・振り返り",
+      "format_verification": {
+        "tool": "file + macOS afinfo (header metadata only)",
+        "file_result": "Audio file with ID3 version 2.3.0, contains: MPEG ADTS, layer III, v1, 192 kbps, 44.1 kHz, Stereo",
+        "afinfo": "File:           /Users/takehirokubokawa/Documents/Codex/2026-10-26/new-chat/outputs/3-2_homeostasis_april/assets/bgm/free_evening.mp3\nFile type ID:   MPG3\nNum Tracks:     1\n----\nData format:     2 ch,  44100 Hz, .mp3 (0x00000000) 0 bits/channel, 0 bytes/packet, 1152 frames/packet, 0 bytes/frame\n                no channel layout.\nestimated duration: 225.436750 sec\naudio bytes: 5410482\naudio packets: 8630\nbit rate: 192000 bits per second\npacket size upper bound: 1053\nmaximum packet size: 627\naudio data file offset: 1024\noptimized\n----",
+        "status": "passed"
+      }
+    }
+  ],
+  "license_summary": "作者は著作権を保持。公式規約によりゲームBGM利用・商用利用無料、使用報告と表記は任意、音量・ループ・形式等の調整可。曲単体の再配布・販売、自作としての発表、Content ID登録は禁止。ゲームには取得したローカル音源を同梱し、配布元への再生直リンクは使用しない。"
+}

@@ -1,0 +1,9 @@
+{
+  "result": "PASS",
+  "routes": 15,
+  "steps": 379,
+  "events": 7,
+  "weekdayNights": 0,
+  "duplicateLines": 0,
+  "duplicateChoices": 0
+}

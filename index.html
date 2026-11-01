@@ -1,0 +1,26 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#193747"><title>３年2組恒常性メモリアル｜4月〜6月編 β</title><link rel="stylesheet" href="style.css"></head><body>
+<main id="app">
+ <section id="title-screen" aria-labelledby="game-title">
+  <div class="title-shade"></div><div class="title-content"><p class="eyebrow">HOMEOSTASIS MEMORIAL · CLASS 3–2</p><span class="beta-label">β 1.0 — 4月〜6月</span><h1 id="game-title"><span>３年2組</span>恒常性<br>メモリアル</h1><p class="tagline">まだ知らない、<br>きみを整える十五人。</p><p class="title-detail">4月8日から6月22日まで。<br>観察して、話して、少しずつ近づく学園ADV。</p>
+  <form id="start-form"><label for="player-name">ゲームの中の呼び名</label><input id="player-name" value="あなた" maxlength="12" autocomplete="off"><div class="start-preferences"><label for="player-gender">主人公の性別</label><select id="player-gender"><option value="unset">設定しない</option><option value="male">男子</option><option value="female">女子</option></select><label for="interest">親しくなりたい相手</label><select id="interest"><option value="undecided">まだ決めない</option><option value="all">全員</option><option value="male">男子</option><option value="female">女子</option></select></div><p class="preference-note">全員と交流できます。希望はあとから変更できます。</p><div class="title-buttons"><button class="primary" type="submit">物語をはじめる <span>→</span></button><button id="continue" type="button" disabled>つづきから</button></div></form><p id="title-message" role="status"></p><div class="title-links"><button id="help-title">遊び方</button><button id="credits-title">音楽・制作情報</button><button id="import-title">保存ファイルを読む</button></div><p class="beta-note">テストプレイ用β版。４月から６月の行事と結末を収録。四月βとは別セーブで、最初から始まります。</p></div>
+ </section>
+ <section id="game-screen" aria-label="ゲーム画面" hidden>
+  <div id="background"></div><div class="scene-tint"></div>
+  <header class="hud"><div class="date-box"><strong id="date"></strong><span id="period"></span></div><div class="place-box"><span class="beta-pill">3–2 β</span><strong id="place"></strong></div><nav aria-label="ゲームメニュー"><button id="map">地図</button><button id="notebook">手帳</button><button id="history">履歴</button><button id="save">保存</button><button id="settings">設定</button></nav><div id="status" aria-label="現在の状態"></div></header>
+  <div id="scene-heading"><span id="chapter-label"></span><h2 id="scene-title"></h2></div>
+  <div id="stage" aria-hidden="true"></div>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <section id="choices" aria-label="選択肢" hidden><h2 id="choice-question"></h2><div id="choice-buttons"></div></section>
+  <button id="dialogue" aria-label="会話を進める"><span id="speaker"></span><span id="text"></span><span class="next">タップ / Enter で進む ▾</span></button>
+  <section id="activity" class="screen-panel" hidden></section>
+  <section id="walk" class="screen-panel" hidden></section>
+  <section id="night" class="screen-panel" hidden></section>
+  <section id="notice" class="screen-panel compact" hidden></section>
+  <section id="quiz" class="screen-panel compact" hidden></section>
+  <section id="complete" class="screen-panel compact" hidden></section>
+ </section>
+</main>
+<dialog id="modal"><div class="modal-top"><h2 id="modal-title"></h2><button id="modal-close" aria-label="閉じる">閉じる ×</button></div><div id="modal-body"></div></dialog>
+<input id="save-file" type="file" accept="application/json,.json" hidden>
+<script src="content.js"></script><script src="engine.js"></script><script src="app.js"></script>
+</body></html>

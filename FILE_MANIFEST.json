@@ -1,0 +1,675 @@
+{
+  "version": "1.0-beta-ai-visual-v2",
+  "files": [
+    {
+      "file": "BGM_CREDITS.md",
+      "bytes": 1580,
+      "sha256": "6b26f3b3733c40cf2e1864f10894cdbc18009fb741c85237bf80a9c4a01d8e16"
+    },
+    {
+      "file": "CHARACTERS.md",
+      "bytes": 1308,
+      "sha256": "a53f626e267284bebe6d8990720a819eb459ea57f80e1872261ad477fb9bcacb"
+    },
+    {
+      "file": "README.md",
+      "bytes": 4604,
+      "sha256": "ec529a3bdfe0a7290c68f3101088d7af58696d51dffb2cc40eb516f5fece1428"
+    },
+    {
+      "file": "_PROVENANCE_MON.md",
+      "bytes": 3038,
+      "sha256": "bcae4c0334d329fd09ec77b9f49f522c2b5c01cc9099f9aef21b51223d695d2a"
+    },
+    {
+      "file": "app.js",
+      "bytes": 20957,
+      "sha256": "29dcc4a75ecf082ada13835ce1f65971157146f1c661b41d52ef74295977393b"
+    },
+    {
+      "file": "assets/backgrounds/backgrounds_manifest.json",
+      "bytes": 12155,
+      "sha256": "1b2013bd2969ba28e24b3dcc477db37b7dadcc9515dbbfc6928392fda3128154"
+    },
+    {
+      "file": "assets/backgrounds/classroom.png",
+      "bytes": 2354516,
+      "sha256": "1ccc2b828631317fa30ef7f947445b2da512abedc70f159d2ac1af50316bec40"
+    },
+    {
+      "file": "assets/backgrounds/council.png",
+      "bytes": 2145330,
+      "sha256": "00e72b8ec38510e6bcc9cbe6b43238f81ab015496f4064514d6fe85a092a1c00"
+    },
+    {
+      "file": "assets/backgrounds/courtyard.png",
+      "bytes": 2948385,
+      "sha256": "55d436ae30f2aa1e094b508b64d960fb90fdb4afbb05179174f1344fbf68cf5a"
+    },
+    {
+      "file": "assets/backgrounds/event_festival.png",
+      "bytes": 2779165,
+      "sha256": "0102d31ed23f992b4805e009022d6ed1321919d233079784b9df39824eac768b"
+    },
+    {
+      "file": "assets/backgrounds/event_lake.png",
+      "bytes": 2826443,
+      "sha256": "cf6d58e91b99ae4b39c3fe3ad224bca17368d3737073a40960e08b5c29a9df10"
+    },
+    {
+      "file": "assets/backgrounds/event_mountain.png",
+      "bytes": 3191940,
+      "sha256": "806894dc08e66765dc5b7210e552aae163bb82ad7969ec1015bf9abca15c3f69"
+    },
+    {
+      "file": "assets/backgrounds/event_park.png",
+      "bytes": 3133130,
+      "sha256": "d252a35949cd91befadae5571aec9c621912b9c18e775759d15232b58d68c91d"
+    },
+    {
+      "file": "assets/backgrounds/events_manifest.json",
+      "bytes": 3605,
+      "sha256": "2f717551aba1fd49b29bed66052add1c1daf89d958b59a54cbdf7bf02097c03a"
+    },
+    {
+      "file": "assets/backgrounds/gate.png",
+      "bytes": 3109301,
+      "sha256": "c17c34ade90190323d10ac59c1d20d53c129464da34f8b39969d5e1bc38e7a8d"
+    },
+    {
+      "file": "assets/backgrounds/library.png",
+      "bytes": 2262383,
+      "sha256": "bae4f3abe86569cd9340e83ba182566b37ef9e120dc96132405c8e2c724474f7"
+    },
+    {
+      "file": "assets/backgrounds/rooftop.png",
+      "bytes": 2569069,
+      "sha256": "d4f3db1f48da9423693b3a92ab2bdd97cca9da148562abb51fe2e353379769a7"
+    },
+    {
+      "file": "assets/bgm/command.mp3",
+      "bytes": 4001603,
+      "sha256": "f0951c64ff1dfdadc96c52cfeea4410b3c0c1094da4d0b846f9181ed8fcbb830"
+    },
+    {
+      "file": "assets/bgm/dream.mp3",
+      "bytes": 2326423,
+      "sha256": "d9782407f69eb32debe7643b9a1ac0f95e4b1b181367e42595295983e5b3c1f7"
+    },
+    {
+      "file": "assets/bgm/ending.mp3",
+      "bytes": 4321342,
+      "sha256": "e3603449a459ab6e43308a8bec5c23b2fe9133fd837b3d6c5ec42cefff4438b0"
+    },
+    {
+      "file": "assets/bgm/free_evening.mp3",
+      "bytes": 5411634,
+      "sha256": "dfb4bfd9ee2c6ad921de9aae725bc80d7af413c4ebbcaa24b5aaf5f4e1332eba"
+    },
+    {
+      "file": "assets/bgm/free_morning.mp3",
+      "bytes": 3742033,
+      "sha256": "4212cc700d2efa6eea5a47e82f37bc0a60d28e7276da6f732a49d8bdbfd3dd44"
+    },
+    {
+      "file": "assets/bgm/gate_walk.mp3",
+      "bytes": 1283225,
+      "sha256": "074c8270d95cc8fc57207961bbb592f45d5ccca5c9f233921c21dc036812f99c"
+    },
+    {
+      "file": "assets/bgm/morning.mp3",
+      "bytes": 2500828,
+      "sha256": "0f0f23edc306edc06f37ddf27adcaedbc93dbd3c35ec51d521df8777c62f371f"
+    },
+    {
+      "file": "assets/bgm/title.mp3",
+      "bytes": 3333287,
+      "sha256": "7182edd0f66a4513c9e4ec73c3d449827c801687bca75990429f023e240df16b"
+    },
+    {
+      "file": "assets/characters/c01_kira_annoyed.png",
+      "bytes": 1043595,
+      "sha256": "6078682242e7f0f647c3c03c7d28630380f945a9ad60c267a5ce46a6b26657e2"
+    },
+    {
+      "file": "assets/characters/c01_kira_blush.png",
+      "bytes": 1035428,
+      "sha256": "a4961777fcd1cf546b70e639d29904f04e67dcc4bb0d4576b49ecf70a8bdbed3"
+    },
+    {
+      "file": "assets/characters/c01_kira_normal.png",
+      "bytes": 1052662,
+      "sha256": "b6fa2cb4f92307a36a90d95adbaa5b694a01ca464d6739ce9c2cde301601aad2"
+    },
+    {
+      "file": "assets/characters/c01_kira_sad.png",
+      "bytes": 1039562,
+      "sha256": "08afb95322cbee7042bf00f03090c01641b828cd696033e4e7886ed5a6ba0bcd"
+    },
+    {
+      "file": "assets/characters/c01_kira_smile.png",
+      "bytes": 1058512,
+      "sha256": "9d48daf77803ff2d2a6711f327a0e037acdf3868211fc16fffbff1d5588ed40f"
+    },
+    {
+      "file": "assets/characters/c01_kira_surprised.png",
+      "bytes": 1034426,
+      "sha256": "f28627696202f698b3c629784b341c8aefb78584d23ae17aa45cc4ce4b683c6c"
+    },
+    {
+      "file": "assets/characters/c02_kimura_annoyed.png",
+      "bytes": 878115,
+      "sha256": "1a4c40ab4750e459eac069c75d8b0ffcd5ffb20d9874068a30b0dbb034fc7fd2"
+    },
+    {
+      "file": "assets/characters/c02_kimura_blush.png",
+      "bytes": 887202,
+      "sha256": "358099e877eee45d6b16ebbbb01eb8cc3ad121549768998aa8f42e76fa0ad61b"
+    },
+    {
+      "file": "assets/characters/c02_kimura_normal.png",
+      "bytes": 893282,
+      "sha256": "a703f4c1749eedbc3aa72fd4a3a9d392f2366a230269b89ff86f65e67d78924f"
+    },
+    {
+      "file": "assets/characters/c02_kimura_sad.png",
+      "bytes": 896821,
+      "sha256": "bc32b43d28978bb6860e8e9806b1d5f48baf8cde8fcbe02212e0e8b0206a4254"
+    },
+    {
+      "file": "assets/characters/c02_kimura_smile.png",
+      "bytes": 894095,
+      "sha256": "1658b7a36153dd88dfd51c6e16bf3ed76f6e921b7d82fb6a2f920bd05e91a3a5"
+    },
+    {
+      "file": "assets/characters/c02_kimura_surprised.png",
+      "bytes": 883195,
+      "sha256": "ef3d3b1d60cb37e3277b3c43a90937d1886694c3389eab954b9fa87a3dbfa284"
+    },
+    {
+      "file": "assets/characters/c03_mizuno_annoyed.png",
+      "bytes": 832959,
+      "sha256": "139568fa3c46d9bab9e73439ee1e29f60addbdd88430353703c7e85843287bb7"
+    },
+    {
+      "file": "assets/characters/c03_mizuno_blush.png",
+      "bytes": 836356,
+      "sha256": "11e75d57ea3d7cc5956898255f71576e1c1fbcfbf3d517c0c46cda5e978f9be2"
+    },
+    {
+      "file": "assets/characters/c03_mizuno_normal.png",
+      "bytes": 832167,
+      "sha256": "8389f0aaaa83a0be6b300765fb34c7d9569663e2a17afa9a1d04c1320b1c5d17"
+    },
+    {
+      "file": "assets/characters/c03_mizuno_sad.png",
+      "bytes": 839146,
+      "sha256": "126f67fbf6e0205dc971ced810c22f8fe85b8cf61cb8f35f740dafda4eefb081"
+    },
+    {
+      "file": "assets/characters/c03_mizuno_smile.png",
+      "bytes": 835633,
+      "sha256": "48ce686634539b11d0be8fd23b62a4402e0c5d0117d00f9749217c31edd68c70"
+    },
+    {
+      "file": "assets/characters/c03_mizuno_surprised.png",
+      "bytes": 841461,
+      "sha256": "4228bfe147e92f9f98558d709208882ae518f58b9ae1429971fb4f42ba64698e"
+    },
+    {
+      "file": "assets/characters/c04_marin_annoyed.png",
+      "bytes": 1240687,
+      "sha256": "09df587467b1d73e76ae8866d830c514443951ceaf25da0c0f681b46c45773e2"
+    },
+    {
+      "file": "assets/characters/c04_marin_blush.png",
+      "bytes": 1245086,
+      "sha256": "efd66f7744d32dbbfef13fe9135dafda11753cd502d288426fb08dd3215befc8"
+    },
+    {
+      "file": "assets/characters/c04_marin_normal.png",
+      "bytes": 1221835,
+      "sha256": "a6207d1680de9e7ac9b384bc7acb018ab66e7f205bc7240717ae8477d5010c8f"
+    },
+    {
+      "file": "assets/characters/c04_marin_sad.png",
+      "bytes": 1243483,
+      "sha256": "db6dff932c2b05b63c826daf8a1135ff0a778433a7e0607648aade40b7bbdcb5"
+    },
+    {
+      "file": "assets/characters/c04_marin_smile.png",
+      "bytes": 1239746,
+      "sha256": "f40e1fa1b2f87ba2a9e94931cda75404f2cc9d7d89f3523832ba964c584a8db5"
+    },
+    {
+      "file": "assets/characters/c04_marin_surprised.png",
+      "bytes": 1239655,
+      "sha256": "833785fbf4923f5d72ac9c818c48a2f8b5c6e5482e0bb496b0a8a2be23b38c70"
+    },
+    {
+      "file": "assets/characters/c05_kagura_annoyed.png",
+      "bytes": 965980,
+      "sha256": "75e07a44cb400bbd2c42631904b32a16754dccc7335e3a24ce9350f8c66bd02d"
+    },
+    {
+      "file": "assets/characters/c05_kagura_blush.png",
+      "bytes": 968119,
+      "sha256": "40742401077f96b19a19c4152cfa0c57ab9888bd5ca858b5681a7c183dbb1ace"
+    },
+    {
+      "file": "assets/characters/c05_kagura_normal.png",
+      "bytes": 977444,
+      "sha256": "08e74a347b242e24eff86e532a787c639ff6f8033cd895263826a1a49ca0b730"
+    },
+    {
+      "file": "assets/characters/c05_kagura_sad.png",
+      "bytes": 966241,
+      "sha256": "44b83f7e770a389ca4b403f353e40760e973276ea61b84400291b0080df9019d"
+    },
+    {
+      "file": "assets/characters/c05_kagura_smile.png",
+      "bytes": 966333,
+      "sha256": "1881c142313e198bd2d9789b37f32b95bc8b53ca4dd5c5fb280e3b78e5782283"
+    },
+    {
+      "file": "assets/characters/c05_kagura_surprised.png",
+      "bytes": 965088,
+      "sha256": "c863cb8fc115bc0f9021f30bfb38f521d4e78c4152340dd660cbcffdb8341ed6"
+    },
+    {
+      "file": "assets/characters/c06_shijo_annoyed.png",
+      "bytes": 812833,
+      "sha256": "9fc6feae42b2099a044da1f2a5934a6bb025bf2830eb858fab9fae9c4355d414"
+    },
+    {
+      "file": "assets/characters/c06_shijo_blush.png",
+      "bytes": 818565,
+      "sha256": "dbbe6f0bdabe9f2a0dd585fd0f28977afee1bc9eff55a9e3224cfac77e030ab1"
+    },
+    {
+      "file": "assets/characters/c06_shijo_normal.png",
+      "bytes": 825276,
+      "sha256": "c335e54919ab2d22eea40ed3e7dea3f414152c08a405b27fda1f4701ef3155c9"
+    },
+    {
+      "file": "assets/characters/c06_shijo_sad.png",
+      "bytes": 813983,
+      "sha256": "4ddcd693333349c15e042875e579a2ad11359db7b9e6582fa5d559821ffa8237"
+    },
+    {
+      "file": "assets/characters/c06_shijo_smile.png",
+      "bytes": 832342,
+      "sha256": "ee5c55d9f74335d21817d0ebc930405654f48d9c42d678f80d25f91bb7de78e2"
+    },
+    {
+      "file": "assets/characters/c06_shijo_surprised.png",
+      "bytes": 827512,
+      "sha256": "5b8165f270ed74fd62645d839fda9702e7392355f489eae027d50eb7230de2d7"
+    },
+    {
+      "file": "assets/characters/c07_rerina_annoyed.png",
+      "bytes": 1665499,
+      "sha256": "d5c97e1025be0421d5e1d94af356e0d52efa1d12d276ada309df35e8e69b0407"
+    },
+    {
+      "file": "assets/characters/c07_rerina_blush.png",
+      "bytes": 1654303,
+      "sha256": "d14cffdece366f4f1ea83d13b0827cfb65f1c116c4832e12a65e0fd8c7bd42c1"
+    },
+    {
+      "file": "assets/characters/c07_rerina_normal.png",
+      "bytes": 1646230,
+      "sha256": "7b3e9d6c0c9eee07847e9e18a2e34b109036476d9b709cfec3c3d83bdecd675f"
+    },
+    {
+      "file": "assets/characters/c07_rerina_sad.png",
+      "bytes": 1657956,
+      "sha256": "0818f3cf019234fa926bb0ebd2c597a3f4b0c0644aa3fd0f5968c67cf891de68"
+    },
+    {
+      "file": "assets/characters/c07_rerina_smile.png",
+      "bytes": 1649749,
+      "sha256": "a49151385217e768ef7184d0d61c899aa8867f864537eaeebeaa33d7d3737b6d"
+    },
+    {
+      "file": "assets/characters/c07_rerina_surprised.png",
+      "bytes": 1663880,
+      "sha256": "9e2f3c04294730a8f98941c179b5953e699572489b20a16799812e760a9cb095"
+    },
+    {
+      "file": "assets/characters/c08_ramune_annoyed.png",
+      "bytes": 967694,
+      "sha256": "9d3c1666b34491e677274f073e19c8126128c197dc8f0c49f5832268270a57b6"
+    },
+    {
+      "file": "assets/characters/c08_ramune_blush.png",
+      "bytes": 965472,
+      "sha256": "002cf8aed0197131f4a6062d3017c4d50425583511ae72732945a7174dcf94e1"
+    },
+    {
+      "file": "assets/characters/c08_ramune_normal.png",
+      "bytes": 967313,
+      "sha256": "5266257b235a5eca3fc8cac3ea66cfcd1a30279da023fe62529bff63a910004f"
+    },
+    {
+      "file": "assets/characters/c08_ramune_sad.png",
+      "bytes": 968329,
+      "sha256": "26f74a7170c3f4ac79bb9ed285a40110641fe2318a3fb35bf77db0e5f9a11df5"
+    },
+    {
+      "file": "assets/characters/c08_ramune_smile.png",
+      "bytes": 963043,
+      "sha256": "4afa24277c27a468515bcf1a1ef15c39d09bf220c50de9f1043d4083a92f3e43"
+    },
+    {
+      "file": "assets/characters/c08_ramune_surprised.png",
+      "bytes": 963346,
+      "sha256": "41b28df04dbc302e8fc53711f4db5ccb1a60afd2e7c39a628fd5a923e20572e0"
+    },
+    {
+      "file": "assets/characters/c09_ai_annoyed.png",
+      "bytes": 849971,
+      "sha256": "f0b36816eddc86f35ac8db4c6153809651689ec0bd805a7a1811dd10a4f3d8fc"
+    },
+    {
+      "file": "assets/characters/c09_ai_blush.png",
+      "bytes": 842803,
+      "sha256": "4d1e44a5fddbce495f25e233dacc49c53c62b34d07a6ee3f1be6434d4577668e"
+    },
+    {
+      "file": "assets/characters/c09_ai_normal.png",
+      "bytes": 868513,
+      "sha256": "eeac4ebbef2783252f57b30121814efc8d38e3d1a7e565fda2e12a9cb392a07e"
+    },
+    {
+      "file": "assets/characters/c09_ai_sad.png",
+      "bytes": 842512,
+      "sha256": "b1dc0d75e51c70a69d9a2020e19884d30827e2a0f16a5af1c874b17639573f73"
+    },
+    {
+      "file": "assets/characters/c09_ai_smile.png",
+      "bytes": 851890,
+      "sha256": "26a8c1fbdc5c4f97dc26f8d1dc0a19083e7624a754e405203fe04f70563d9e53"
+    },
+    {
+      "file": "assets/characters/c09_ai_surprised.png",
+      "bytes": 848654,
+      "sha256": "b60ddd3ec9d09ae626b53cd8ad01b954dc8e92ce8ab9a5986fda459ca4fbfbf3"
+    },
+    {
+      "file": "assets/characters/c09_ai_v2_annoyed.png",
+      "bytes": 815378,
+      "sha256": "95fde23ee7eab3d470c0139841cb4039eba552c2d40e12e64d2872d86c07b306"
+    },
+    {
+      "file": "assets/characters/c09_ai_v2_blush.png",
+      "bytes": 820705,
+      "sha256": "2d84df21ab53d131bfd84d29c03f14ee5e9fa8647fabb9ef0c8d4d4e8777f6a7"
+    },
+    {
+      "file": "assets/characters/c09_ai_v2_normal.png",
+      "bytes": 823793,
+      "sha256": "3f4e71130a15d29736f875af06f9c9408c4e9019dcf6ec727b46000ea8eb1584"
+    },
+    {
+      "file": "assets/characters/c09_ai_v2_sad.png",
+      "bytes": 821386,
+      "sha256": "a3c5a41debf09cb9e0959057014b22a6b178bf99a765f845cd6b872f3e749e40"
+    },
+    {
+      "file": "assets/characters/c09_ai_v2_smile.png",
+      "bytes": 823171,
+      "sha256": "b6ee0428a2c4ff9ad13d358a14e8b56d4a112f8a52bc6e5711a26dd2c8d65ada"
+    },
+    {
+      "file": "assets/characters/c09_ai_v2_surprised.png",
+      "bytes": 818257,
+      "sha256": "f3f2c12823c73f20c34a1f8421604cce5060c4918eee209bd980881f825085fa"
+    },
+    {
+      "file": "assets/characters/c10_shisho_annoyed.png",
+      "bytes": 780602,
+      "sha256": "2f15f3dd6693510af45c86a7c9c5b78514d1c78b8a728157a9bf3a51267b02e4"
+    },
+    {
+      "file": "assets/characters/c10_shisho_blush.png",
+      "bytes": 770385,
+      "sha256": "1f2e3a7d4e2c67d717547b903f59098ad3f554100ae412ae88c6de7d0be9d89e"
+    },
+    {
+      "file": "assets/characters/c10_shisho_normal.png",
+      "bytes": 779881,
+      "sha256": "12cd239e0d09e122d0e5b3e851924298193772e5948bf7864225e8f310eaddbd"
+    },
+    {
+      "file": "assets/characters/c10_shisho_sad.png",
+      "bytes": 774853,
+      "sha256": "742f9aa643a4d56905b857ab4b50f0635ee2501d29b2e36cb590d388825292e1"
+    },
+    {
+      "file": "assets/characters/c10_shisho_smile.png",
+      "bytes": 783048,
+      "sha256": "c45b88f6f479b97d84b5fea4439caecd85e6d705717e81b622a64640ce8357f4"
+    },
+    {
+      "file": "assets/characters/c10_shisho_surprised.png",
+      "bytes": 774215,
+      "sha256": "f8f4b4b379a97001e61a2ca8550e2c77b8cb000400bf28d1c36cd2c1509b0422"
+    },
+    {
+      "file": "assets/characters/c11_junko_annoyed.png",
+      "bytes": 1403350,
+      "sha256": "2263254e137be19d07e6ff432cb58912f3e3f823617e7dc455347c277af38452"
+    },
+    {
+      "file": "assets/characters/c11_junko_blush.png",
+      "bytes": 1407221,
+      "sha256": "77f933ca94d455164ff825c6ef661be2b2761d44063977e86c8fa7e2ff2ef02d"
+    },
+    {
+      "file": "assets/characters/c11_junko_normal.png",
+      "bytes": 1389398,
+      "sha256": "37c545fef0b7238f435c687d3b8579d68275f5def12d33c447673cf54c3ac5d2"
+    },
+    {
+      "file": "assets/characters/c11_junko_sad.png",
+      "bytes": 1417937,
+      "sha256": "8fee219f58af7bb0d5d81935964cdf7fd9044f489f904121873866e65da73b64"
+    },
+    {
+      "file": "assets/characters/c11_junko_smile.png",
+      "bytes": 1403106,
+      "sha256": "51b84d50c7b7278ef87c8cf00aa23818dbf2350b57b5a527923e0ee31cf9ee20"
+    },
+    {
+      "file": "assets/characters/c11_junko_surprised.png",
+      "bytes": 1397302,
+      "sha256": "7cdc8d6bb27388a218412a2d01ac591b61d14e4d4e93e6f0294a61d01ff6af25"
+    },
+    {
+      "file": "assets/characters/c12_noa_annoyed.png",
+      "bytes": 1048876,
+      "sha256": "e06c71b094bdc828780ce22c4cb72de0d8bd6081349f9bfa514ae4b124ddd4ef"
+    },
+    {
+      "file": "assets/characters/c12_noa_blush.png",
+      "bytes": 1042395,
+      "sha256": "56740ce520c5e7c6d2c1be1cca8826bdf81aaef4811bb3f0c2484bafa36f2efc"
+    },
+    {
+      "file": "assets/characters/c12_noa_normal.png",
+      "bytes": 1047815,
+      "sha256": "cf89fe6d829fe25518585fa5d8614aa8f79bbaf20d256a6c6a48cbe6be229fed"
+    },
+    {
+      "file": "assets/characters/c12_noa_sad.png",
+      "bytes": 1042354,
+      "sha256": "0baee63831a9263a1cfd3959f098760a7d81466b8341840da30c06d78b0edac4"
+    },
+    {
+      "file": "assets/characters/c12_noa_smile.png",
+      "bytes": 1029573,
+      "sha256": "1010d20e437d4f1da5c5a91159cb7b75d5f923e9f5603f164ac29980ee574985"
+    },
+    {
+      "file": "assets/characters/c12_noa_surprised.png",
+      "bytes": 1037817,
+      "sha256": "1b0f66bf180a11a5cf8152aead1519d9532d0302f6addf05b7ec26fef411803a"
+    },
+    {
+      "file": "assets/characters/c13_nemu_annoyed.png",
+      "bytes": 975770,
+      "sha256": "3fbfcdba01e36d79e039936e2ac9542508141e2c9b0d39365fe473f58d6f8bc0"
+    },
+    {
+      "file": "assets/characters/c13_nemu_blush.png",
+      "bytes": 968674,
+      "sha256": "530161a806c7dada1ac8db5e9037e355f14cd7ed2018e625bcffc44572af2cad"
+    },
+    {
+      "file": "assets/characters/c13_nemu_normal.png",
+      "bytes": 982639,
+      "sha256": "4a4721be7ab574a9a1abfaa858eac5175f47afb12b0283cc8b7aeceace1beb99"
+    },
+    {
+      "file": "assets/characters/c13_nemu_sad.png",
+      "bytes": 967557,
+      "sha256": "5eab19d393bacc33f41219c6033be06a22d0b43bd92d0bbebded467ca4a0a6fd"
+    },
+    {
+      "file": "assets/characters/c13_nemu_smile.png",
+      "bytes": 971003,
+      "sha256": "5ef7abc2ef5d562554fad21ea0da73237e7c4ba0cfc069818b299cdb59d766f3"
+    },
+    {
+      "file": "assets/characters/c13_nemu_surprised.png",
+      "bytes": 982552,
+      "sha256": "3b3d0af03972fbf79a6c8b66f7c411307fb2dac0ae7db9e68f3c017bbd0d26bc"
+    },
+    {
+      "file": "assets/characters/c14_add_annoyed.png",
+      "bytes": 1217443,
+      "sha256": "34836eb138372a05efea4e3817dc34ea9f3dbad887647cf11b5fe882cb42f9f3"
+    },
+    {
+      "file": "assets/characters/c14_add_blush.png",
+      "bytes": 1220187,
+      "sha256": "e8fb50f6a8e7a1ad6b57eb5963cd4d973b220ac7a61b5e0297b34c9f0b6eab1b"
+    },
+    {
+      "file": "assets/characters/c14_add_normal.png",
+      "bytes": 1230219,
+      "sha256": "86aa9fe40b871bdc1bc7f39541972d722d93de06d707a3c577bcef1808283b26"
+    },
+    {
+      "file": "assets/characters/c14_add_sad.png",
+      "bytes": 1216174,
+      "sha256": "850736305e1acd4bf0957c55f725c071f922449b57b8acc673edd25091ab4654"
+    },
+    {
+      "file": "assets/characters/c14_add_smile.png",
+      "bytes": 1217400,
+      "sha256": "053a699bd6f040beb44d9cad4ea30f1b9d44f8cdf46480b2142e78589cf2603e"
+    },
+    {
+      "file": "assets/characters/c14_add_surprised.png",
+      "bytes": 1219987,
+      "sha256": "b8c3c4378c16cf73628adfd0d4dbd4403c2351862a644bf8372595e4d79fdd5e"
+    },
+    {
+      "file": "assets/characters/c15_koko_annoyed.png",
+      "bytes": 894377,
+      "sha256": "f47a64d224abb19c20c910228df7941554cba223df4d9b82ae59ebe8852da4e9"
+    },
+    {
+      "file": "assets/characters/c15_koko_blush.png",
+      "bytes": 897341,
+      "sha256": "3a189e8c9bd373340aac048170d9ab742ebec62017350ae07ef871cb019bf283"
+    },
+    {
+      "file": "assets/characters/c15_koko_normal.png",
+      "bytes": 909544,
+      "sha256": "c4868ebfb8ff9f6067f3f988e635f4fa5d4ef31d7c6cd1c0fa6dc312b200ce47"
+    },
+    {
+      "file": "assets/characters/c15_koko_sad.png",
+      "bytes": 903118,
+      "sha256": "8758d83b656d80c1f704c67e3389cc59c161c39aa2e058baebd2097a089601b5"
+    },
+    {
+      "file": "assets/characters/c15_koko_smile.png",
+      "bytes": 894997,
+      "sha256": "3175eae928634cfa2fd0babc3fe97c58c6be6c21a644841b65f74c422d1575b8"
+    },
+    {
+      "file": "assets/characters/c15_koko_surprised.png",
+      "bytes": 894954,
+      "sha256": "4b3479c12c8527073812bf3adfbc6fa1550d8791d1f1e58f2179e26b35e37f2a"
+    },
+    {
+      "file": "character-gallery.html",
+      "bytes": 22076,
+      "sha256": "3fa7934639612ff6763ad54f8532ea791620acf9d25c43a0f260defe4b334538"
+    },
+    {
+      "file": "content.js",
+      "bytes": 154890,
+      "sha256": "cedaf70e525c7b6674ccaf86bc891c9cd939e4ecca5ee5ea18a2297b006a4bee"
+    },
+    {
+      "file": "content.json",
+      "bytes": 257209,
+      "sha256": "be66c159b85ea52dbd46830846a7d33372add5334fdbbd46fece125db6e2ced8"
+    },
+    {
+      "file": "engine.js",
+      "bytes": 12744,
+      "sha256": "1c34ee0b9d196f56504839f39dc9bf64ccf0732795021d8848bcc08d112c729e"
+    },
+    {
+      "file": "index.html",
+      "bytes": 4082,
+      "sha256": "3109a389083c8fc84f265c7dc8a6d03933e22c973478d1b197e4c3a3af727e77"
+    },
+    {
+      "file": "music_manifest.json",
+      "bytes": 3409,
+      "sha256": "962be3f9332e1dee8d2ad2331d8d6cfe06e91f41cf3d5765a71c14c1db440b47"
+    },
+    {
+      "file": "style.css",
+      "bytes": 16116,
+      "sha256": "9f96a00ef18fbd36514f65b54dd73a923f8324971480de3d7f483c756dfaac40"
+    },
+    {
+      "file": "tests/full.test.cjs",
+      "bytes": 4642,
+      "sha256": "41557c2ce554320f5a70578c73763c64736a6ef813f0552b8de127d786a91e8e"
+    },
+    {
+      "file": "tests/results.json",
+      "bytes": 140,
+      "sha256": "e559e9c643ac6dbcce34b00ba74f91c0a5b439c69c047eb2037d45f35faedbe7"
+    },
+    {
+      "file": "tests/ui-smoke.test.cjs",
+      "bytes": 5325,
+      "sha256": "b499d48967dd1250005736e03f5b2a50a6f93aae3a42224d0e72e3c4ca6f8395"
+    },
+    {
+      "file": "tests/verification.json",
+      "bytes": 661,
+      "sha256": "2b0dd835a0bcbd2f169a5025c0082dbc97d104247e0e7baa9ffa26d3e4528aeb"
+    },
+    {
+      "file": "本編β版を起動.command",
+      "bytes": 328,
+      "sha256": "974ceca21b60efde52ea2c5dbc99b1e766fd51e59af431160106e106c9ae71b7"
+    },
+    {
+      "file": "藍_立ち絵制作メモ.md",
+      "bytes": 2778,
+      "sha256": "b497f5f2eb441e25081fcc2890e98c7087e6c44e7b616f0aad6f5a36f303f54e"
+    }
+  ]
+}

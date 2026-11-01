@@ -1,0 +1,50 @@
+{
+  "generated_new": true,
+  "old_backgrounds_reused": false,
+  "assets": [
+    {
+      "file": "amusement.png",
+      "method": "built-in image_gen",
+      "source": "/Users/takehirokubokawa/.codex/generated_images/01a17b1a-b4b8-7443-9e8f-92572345dda4/exec-2da58854-aa1f-4294-bac6-c64e8842aa52.png",
+      "prompt": "Use case: illustration-story. Asset type: visual novel background, wide landscape 16:9. A welcoming Japanese lakeside amusement park in late spring, ferris wheel and colorful rides in the distance, paved promenade and planters in foreground. Beautiful polished anime background art, consistent natural architecture and bright midday light. No people, no text, no logo, no UI. Provide full scene suitable behind character sprites.",
+      "sha256": "d252a35949cd91befadae5571aec9c621912b9c18e775759d15232b58d68c91d",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3133130,
+      "visual_check": "inspected, no people or legible text"
+    },
+    {
+      "file": "mountain.png",
+      "method": "built-in image_gen",
+      "source": "/Users/takehirokubokawa/.codex/generated_images/01a17b1a-b4b8-7443-9e8f-92572345dda4/exec-b3bcce49-6f1b-4f3c-aeba-e1d90ea8604f.png",
+      "prompt": "Use case: illustration-story. Asset type: visual novel background, wide landscape 16:9. Green mountain hiking path above a Japanese lake, gentle trail and trees with a distant summit and clear view, early summer sunny day. Beautiful polished anime background art, rich color and clean atmosphere. No people, no text, no logo, no UI. Provide full scene suitable behind character sprites.",
+      "sha256": "806894dc08e66765dc5b7210e552aae163bb82ad7969ec1015bf9abca15c3f69",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3191940,
+      "visual_check": "inspected, no people or legible text"
+    },
+    {
+      "file": "lake.png",
+      "method": "built-in image_gen",
+      "source": "/Users/takehirokubokawa/.codex/generated_images/01a17b1a-b4b8-7443-9e8f-92572345dda4/exec-9b0e9ff1-157f-4484-b386-e2a69472d7fd.png",
+      "prompt": "Use case: illustration-story. Asset type: visual novel background, wide landscape 16:9. Calm Japanese lake for a school outdoor learning outing, lakeshore wooden pier with moored safe rowboats and green mountains beyond, early summer day. Beautiful polished anime background art, clear blue water and bright natural light. No people, no text, no logo, no UI. Provide full scene suitable behind character sprites.",
+      "sha256": "cf6d58e91b99ae4b39c3fe3ad224bca17368d3737073a40960e08b5c29a9df10",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2826443,
+      "visual_check": "inspected, no people or legible text"
+    },
+    {
+      "file": "festival.png",
+      "method": "built-in image_gen",
+      "source": "/Users/takehirokubokawa/.codex/generated_images/01a17b1a-b4b8-7443-9e8f-92572345dda4/exec-0077dd85-82c3-45ab-973a-47f936c05ab6.png",
+      "prompt": "Use case: illustration-story. Asset type: visual novel background, wide landscape 16:9. Japanese high school grounds during school festival preparations, track and field marked with running lanes, festive bunting and classroom festival stalls along the edge, warm late-summer sunlight. Beautiful polished anime background art, cheerful and plausible architecture. No people, no text, no logo, no UI. Provide full scene suitable behind character sprites.",
+      "sha256": "0102d31ed23f992b4805e009022d6ed1321919d233079784b9df39824eac768b",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2779165,
+      "visual_check": "inspected, no people or legible text"
+    }
+  ]
+}

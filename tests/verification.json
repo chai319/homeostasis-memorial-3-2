@@ -1,0 +1,18 @@
+{
+  "legacy_source": "mon_v4/game-v4.json",
+  "match_rule": "台詞・選択肢の12文字以上完全一致",
+  "match_count": 0,
+  "active_option_duplicates": 0,
+  "note": "意味や短い定型句の類似までは検査していない。",
+  "ui": "模擬DOMで最初から一つの個別結末まで操作。実ブラウザの表示・音量は未確認。",
+  "simulations": {
+    "result": "PASS",
+    "routes": 15,
+    "steps": 379,
+    "events": 7,
+    "weekdayNights": 0,
+    "duplicateLines": 0,
+    "duplicateChoices": 0
+  },
+  "conversation_stage": "模擬DOMで湖上3人の発話者切替を検査。CSSの表示は実ブラウザ未確認。"
+}
